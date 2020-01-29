@@ -13,7 +13,7 @@
 
 //os pinos do Display: VSS,RW,K estão ligados no terra(GND)
 //os pinos do Display : VDD, A estão ligados em 5vcc
-//Ligar um resistor em 5vcc no botao e no msm pino ligar o digital
+//Ligar um resistor em 5vcc do pino digital 10 e no botão, tudo no mesmo contato
 
 int V0 = 3; //V0 do display no pino 3 digital do arduino p controlar contrast
 int RS = 4; //RS do display no pino 4 dgtal do arduino p comandos do display
